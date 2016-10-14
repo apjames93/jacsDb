@@ -1,0 +1,25 @@
+{
+  "name": "jacs-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apjames93/jacsDb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apjames93/jacsDb/issues"
+  },
+  "homepage": "https://github.com/apjames93/jacsDb#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "gitignore": "^0.6.0",
+    "knex": "^0.12.5",
+    "pg": "^6.1.0"
+  }
+}
