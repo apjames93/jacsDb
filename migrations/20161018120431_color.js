@@ -1,7 +1,7 @@
 exports.up = function(knex, Promise) {
     return knex.schema.createTable('color', function(table){
           table.increments();
-         table.string('img');
+          table.string('img', [350]);
          table.string('description');
          });
 };
