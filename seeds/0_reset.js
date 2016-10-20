@@ -1,14 +1,12 @@
 exports.seed = function(knex, Promise) {
-  return knex.raw("TRUNCATE cut, color, style RESTART IDENTITY CASCADE")
+  return knex.raw("TRUNCATE category, work  RESTART IDENTITY CASCADE")
 
   .then(function(){
-    return knex('cut').del();
+    return knex('category').del();
   })
   .then(function(){
-    return knex('color').del();
-  })
-  .then(function(){
-    return knex('style').del();
+    return knex('work').del();
   });
+
 
 };
