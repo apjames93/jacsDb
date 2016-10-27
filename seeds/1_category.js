@@ -11,6 +11,12 @@ exports.seed = function(knex, Promise) {
           category_name: 'color'
         }),
         knex('category').insert({
+          category_name: 'stuff'
+        }),
+        knex('category').insert({
+          category_name: 'stuff2'
+        }),
+        knex('category').insert({
           category_name: 'style'
         })
 
